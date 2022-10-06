@@ -96,7 +96,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1703908, y: 1.7452259, z: 1.1703949}
+  m_Size: {x: 1.2, y: 1.75, z: 1.2}
   m_Center: {x: 0, y: 0.87261295, z: 0}
 --- !u!54 &2599833594055916544
 Rigidbody:
@@ -112,7 +112,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!1 &3722331479492067135
 GameObject:
@@ -160,8 +160,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1.7286359, z: 1.2}
-  m_Center: {x: 0, y: 0.89932364, z: 0}
+  m_Size: {x: 1.2, y: 1.7566037, z: 1.2}
+  m_Center: {x: 0, y: 0.87169814, z: 0}
 --- !u!54 &255454826113419779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 72
   m_CollisionDetection: 0
 --- !u!114 &-1174322445815003884
 MonoBehaviour:
@@ -191,3 +191,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  playerControllerScript: {fileID: 0}
